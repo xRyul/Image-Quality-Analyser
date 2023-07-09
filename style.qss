@@ -1,0 +1,28 @@
+/* Set the background color of the window to match Dracula's dark theme */
+QMainWindow {
+    background-color: #282a36;
+}
+
+/* Set the font and text color of labels to match Dracula's style */
+QLabel {
+    font-family: "Fira Code", monospace;
+    color: #8be9fd;
+}
+
+/* Set the background color, border, and text color of QLineEdit widgets to match Dracula's style */
+QLineEdit {
+    background-color: #44475a;
+    color: #8be9fd;
+    padding: 5px;
+}
+
+/* Set the style of the "Update Quality" button to match Dracula's style */
+QPushButton {
+    background-color: #bd93f9;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+QPushButton:hover {
+    background-color: #b294bb;
+}

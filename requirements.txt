@@ -1,0 +1,16 @@
+cffi==1.15.1
+imageio==2.31.1
+lazy_loader==0.3
+mozjpeg-lossless-optimization==1.1.2
+networkx==3.1
+numpy==1.25.1
+packaging==23.1
+Pillow==10.0.0
+pycparser==2.21
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.12.1
+PyWavelets==1.4.1
+scikit-image==0.21.0
+scipy==1.11.1
+tifffile==2023.7.4
