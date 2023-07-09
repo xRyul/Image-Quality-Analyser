@@ -11,7 +11,7 @@ Simple GUI application to check visual quality of an image with the help of SSIM
 
 # Setup
 
-1. Setup local venv environment ([VScode way](https://code.visualstudio.com/docs/python/environments)
+1. Setup local venv environment ([VScode way](https://code.visualstudio.com/docs/python/environments), or [manually](https://www.youtube.com/watch?v=28eLP22SMTA&)
 )
     - Open terminal in folder where you want to keep your project
     - type `code .` to open folder as the new project in VScode
