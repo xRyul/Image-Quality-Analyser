@@ -1,6 +1,8 @@
 import sys
 from PyQt5 import QtCore, QtWidgets, QtGui
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QSlider, QSpacerItem, QHBoxLayout, QSizePolicy, QLineEdit, QPushButton, QFileDialog
+from PyQt5.QtWidgets import (QApplication, QMainWindow, QLabel, QSlider,
+                             QSpacerItem, QHBoxLayout, QSizePolicy,
+                             QLineEdit, QPushButton, QFileDialog)
 from PyQt5.QtGui import QPixmap, QFont
 from skimage.metrics import structural_similarity as ssim
 from skimage.metrics import mean_squared_error
@@ -8,6 +10,7 @@ from PIL import Image
 from io import BytesIO
 import mozjpeg_lossless_optimization
 import numpy as np
+
 
 def dssim(image1, image2):
     return (1 - ssim(image1, image2)) / 2
